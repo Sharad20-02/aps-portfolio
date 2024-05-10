@@ -1,11 +1,9 @@
-/* Basic Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Global Styles */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -68,7 +66,6 @@ ul li::before {
   margin-left: -1em;
 }
 
-/* Additional Styling */
 #introduction,
 #why-portfolio,
 #objectives,
@@ -78,7 +75,6 @@ ul li::before {
   text-align: left;
 }
 
-/* Background Styling */
 body::before,
 body::after {
   content: '';
@@ -120,3 +116,45 @@ body::after {
 .tweet-container {
   text-align: center;
 }
+
+ #challenges {
+    margin-top: 20px;
+  }
+  
+  #challenges h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #challenges ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #challenges li {
+    margin-bottom: 15px;
+  }
+  
+  .challenge-description {
+    margin-bottom: 5px;
+    font-style: italic;
+  }
+
+  .implementation-details {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .challenge-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .challenge-link:hover {
+    background-color: #0056b3;
+  }
