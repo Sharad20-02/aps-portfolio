@@ -117,44 +117,44 @@ body::after {
   text-align: center;
 }
 
- #challenges {
-    margin-top: 20px;
-  }
+#challenges {
+  margin-top: 20px;
+}
+
+#challenges h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
   
-  #challenges h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  #challenges ul {
+#challenges ul {
     list-style-type: none;
     padding: 0;
-  }
+}
   
-  #challenges li {
-    margin-bottom: 15px;
-  }
+#challenges li {
+  margin-bottom: 15px;
+}
   
-  .challenge-description {
-    margin-bottom: 5px;
-    font-style: italic;
-  }
+.challenge-description {
+  margin-bottom: 5px;
+  font-style: italic;
+}
 
-  .implementation-details {
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
+.implementation-details {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
   
-  .challenge-link {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
+.challenge-link {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
   
-  .challenge-link:hover {
-    background-color: #0056b3;
-  }
+.challenge-link:hover {
+  background-color: #0056b3;
+}
