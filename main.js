@@ -56,3 +56,28 @@ document
         window.location.href =
           'https://github.com/Sharad20-02/Basic-Implementation/blob/main/SoundexSearch.java';
       });
+
+      document
+        .getElementById('function5')
+        .addEventListener('click', function (event) {
+          event.preventDefault();
+          window.location.href =
+            'https://github.com/Sharad20-02/Basic-Implementation/blob/main/QueueManagement.java';
+        });
+
+        document
+          .getElementById('function6')
+          .addEventListener('click', function (event) {
+            event.preventDefault();
+            window.location.href =
+              'https://github.com/Sharad20-02/Basic-Implementation/blob/main/PlaylistManagement.java';
+          });
+
+      document
+        .getElementById('githubLink')
+        .addEventListener('click', function (event) {
+          event.preventDefault();
+          window.location.href =
+            'https://github.com/Sharad20-02';
+        });
+
