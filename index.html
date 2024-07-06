@@ -1,150 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Spotify Portfolio</h1>
-    </header>
-    <section id="course-info">
-      <h2>Course Information</h2>
-      <dl>
-        <dt>Course Name</dt>
-        <dd>Algorithmic Problem Solving</dd>
-        <dt>Course Code</dt>
-        <dd>23ECSE309</dd>
-      </dl>
-    </section>
-    <section id="personal-info">
-      <h2>Personal Information</h2>
-      <dl>
-        <dt>Name</dt>
-        <dd>Sharad Katkol</dd>
-        <dt>University</dt>
-        <dd>KLE Technological University, Hubballi-31</dd>
-      </dl>
-    </section>
-    <main>
-      <section id="overview">
-        <h2>Overview</h2>
-        <p>A step towards better Music experience</p>
-      </section>
-      
-      <section id="introduction">
-        <h2>Introduction</h2>
-        <p align="justify">
-          The domain I have chosen to focus for my portfolio is Spotify, one
-          of the biggest music streaming platforms. With Spotify, it’s easy to
-          find the right music or podcast for every moment – on our phone, our
-          computer, our tablet and more. There are millions of tracks and
-          episodes on Spotify. So whether we are behind the wheel, working out,
-          partying or relaxing, the right music or podcast is always at our
-          fingertips. We can Choose what we want to listen to, or let Spotify
-          surprise us. We can also browse through the collections of friends,
-          artists, and celebrities, or create a radio station and just sit back.
-        </p>
-      </section>
-      <section id="why-portfolio">
-        <h2>Why Spotify?</h2>
-        <p>
-  <ul class="justify-list">
-    <li>
-      Spotify is a service in existence which is found to be everywhere. Many products try
-      to claim that they are “cross platform,” which usually translates to
-      mean that there are Android and iOS apps, and maybe a web app. Spotify
-      as a service breaks conventional boundaries, allowing you to engage
-      with your music beyond any app. Just take a look at this screenshot of
-      of the feature <span class="italic-bold">Spotify Connect</span>:
-    </li>
-    <br>
-    
-<img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Vh-7ghtFfjjvWvIHn41b2w.png" alt="" width="980" height="400" class="centered-image">
-    <br>
-    
-    <li>
-      Spotify’s scope isn’t just playing music; it’s about discovery,
-      curation, and social interaction too. From a quick look at the app’s
-      landing screen, it’s pretty easy to see that there are lots of themed
-      playlists available. Although a bit more hidden, some of the best and
-      most used browsing methods on Spotify are playlists that are
-      customized for each user. Perhaps the biggest crowd favorite is
-      Discover Weekly. Discover Weekly is a unique playlist generated for
-      each user based on their listening habits that is updated every Monday
-      morning. That means that every Monday I, and many other Spotify fans,
-      get to experience music we haven’t heard yet, specifically geared to
-      our listening preferences.
-    </li>
-    
-     <div class="tweet-container">
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">It's scary how well <a href="https://twitter.com/Spotify?ref_src=twsrc%5Etfw">@Spotify</a> Discover Weekly playlists know me. Like former-lover-who-lived-through-a-near-death experience-with-me well.</p>
-    &mdash; dave horwitz🪣 (@Dave_Horwitz) <a href="https://twitter.com/Dave_Horwitz/status/659084401691615232?ref_src=twsrc%5Etfw">October 27, 2015</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/Spotify_favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="">
+                <img src="./images/Spotify Logo.png" alt="logo">
+            </a>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="" id="homeButton">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" id="whySpotify">
+                        <span class="fa fa-search"></span>
+                        <span>Why Spotify??</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" id="functionalityButton">
+                        <span class="fa fas fa-book"></span>
+                        <span>Functionalities</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        
+
+        <div class="policies">
+            <ul>
+                <li>
+                    <a href="">Cookies</a>
+                </li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Login</button>
+            </div>
+        </div>
+
+        <hr>
+        <div id="homeContent" class="spotify-playlists">
+            <h2>Introduction</h2>
+            <p style="color: aliceblue; text-align: justify; font-size: larger;">The domain I have chosen to focus for my portfolio is Spotify, one of the biggest music streaming platforms. With Spotify, it’s easy to find the right music or podcast for every moment – on our phone, our computer, our tablet and more. There are millions of tracks and episodes on Spotify. So whether we are behind the wheel, working out, partying or relaxing, the right music or podcast is always at our fingertips. We can Choose what we want to listen to, or let Spotify surprise us. We can also browse through the collections of friends, artists, and celebrities, or create a radio station and just sit back. </p>
+        </div>
+        <hr>
+
+        <div class="spotify-playlists">
+            <h2>Course Information</h2>
+            <div class="list">
+                <div class="item">
+                    <img src="./images/aps-56129.svg" alt="">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>23ECSE309</h4>
+                    <p>Algorithmic Problem Solving</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="spotify-playlists">
+            <h2>Personal Information</h2>
+            <div class="list">
+                <div class="item">
+                    <img src="./images/boy-avatar-icon-cartoon.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Sharad Katkol</h4>
+                    <p>KLE Technological University, , Hubballi-31</p>
+                </div>   
+            </div>
+        </div>
+        <hr>
+
+        <div id="whySpotifyContent" class="spotify-playlists">
+            <h2>Why Spotify?</h2>
+            <p style="color: aliceblue; text-align: justify; font-size: large;"> 1. Spotify is a service in existence which is found to be everywhere. Many products try to claim that they are “cross platform,” which usually translates to mean that there are Android and iOS apps, and maybe a web app. Spotify as a service breaks conventional boundaries, allowing you to engage with your music beyond any app. Just take a look at this screenshot of of the feature Spotify Connect:
+            </p>
+            <div class="image">
+                <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Vh-7ghtFfjjvWvIHn41b2w.png" alt="" width="980" height="400">
+                <br>
+            </div>
+            
+            <p style="color: aliceblue; text-align: justify; font-size:large;">2. Spotify’s scope isn’t just playing music; it’s about discovery, curation, and social interaction too. From a quick look at the app’s landing screen, it’s pretty easy to see that there are lots of themed playlists available. Although a bit more hidden, some of the best and most used browsing methods on Spotify are playlists that are customized for each user. Perhaps the biggest crowd favorite is Discover Weekly. Discover Weekly is a unique playlist generated for each user based on their listening habits that is updated every Monday morning. That means that every Monday I, and many other Spotify fans, get to experience music we haven’t heard yet, specifically geared to our listening preferences.
+            </p>
+            <div class="tweet-container">
+                <blockquote class="twitter-tweet">
+                    <p lang="en" dir="ltr">It's scary how well <a href="https://twitter.com/Spotify?ref_src=twsrc%5Etfw">@Spotify</a> Discover Weekly playlists know me. Like former-lover-who-lived-through-a-near-death experience-with-me well.</p>
+                    &mdash; dave horwitz🪣 (@Dave_Horwitz) <a href="https://twitter.com/Dave_Horwitz/status/659084401691615232?ref_src=twsrc%5Etfw">October 27, 2015</a>
+                </blockquote>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+        <hr>
+        
+        <div id="functionalityContent" class="spotify-playlists">
+            <h2>Functionalities</h2>
+            <div class="list">
+                <div class="item" id="function1">
+                    <img src="./images/The Sound of Chennai.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Sorting Songs/Artists</h4>
+                    <p>Implementation using Merge-Sort Algorithm</p>
+                </div>
+
+                <div class="item" id="function2">
+                    <img src="./images/The Sound of Hyderabad.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Shuffle Songs</h4>
+                    <p>Implementation using Shuffle-Yates Algorithm</p>
+                </div>
+
+                <div class="item" id="function3">
+                    <img src="./images/The Sound of Delhi.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Phonetic Searches</h4>
+                    <p>Implementation using Levenshtein Distance Algorithm</p>
+                </div>
+
+                <div class="item" id="function4">
+                    <img src="./images/The Sound of Bengaluru.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Phonetic Searches</h4>
+                    <p>Implementation using Soundex Algorithm</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="preview">
+        <div class="text">
+            <h6>Spotify Portfolio</h6>
+            <p>Connect with me</p>
+        </div>
+        <div class="button">
+            <button type="button">Github</button>
+        </div>
+    </div>
 
 
-    
-  </ul>
-</p>
-
-
-      </section>
-      <section id="objectives">
-        <h2>Objectives</h2>
-        <ul>
-          <li>
-            Highlighting the role of algorithms in optimizing spotify processes.
-          </li>
-          <li>
-            Presenting real-world use cases and solutions within the spotify
-            domain.
-          </li>
-          <li>
-            Showcasing understanding of system design principles and their
-            application on the spotify platform.
-          </li>
-        </ul>
-      </section>
-      
-      <section id="challenges">
-  <h2>Challenges</h2>
-  <ul>
-    <li>
-      Sorting artists or albums or song titles. 
-      <p class="implementation-details">Implementation using Merge Sort</p>
-      <a href="https://github.com/Sharad20-02/Basic-Implementation/blob/main/MergeSort.java" class="challenge-link">View Implementation</a>
-    </li>
-    <li>
-      Shuffle songs in playlist while playing music from a playlist.
-      <p class="implementation-details">Implementation using Fisher-Yates Shuffle</p>
-      <a href="https://github.com/Sharad20-02/Basic-Implementation/blob/main/FisherYatesShuffleAlgorithm.java" class="challenge-link">View Implementation</a>
-    </li>
-    <li>
-      Implement phonetic searches - Searches where even if the spelling for search are wrong,
-      related content must be displayed.
-      <p class="implementation-details">Implementation using Levenshtein Distance</p>
-      <a href="https://github.com/Sharad20-02/Basic-Implementation/blob/main/LevenshteinDistance.java" class="challenge-link">View Implementation</a>
-      <p class="implementation-details">Implementation using Soundex</p>
-      <a href="https://github.com/Sharad20-02/Basic-Implementation/blob/main/SoundexSearch.java" class="challenge-link">View Implementation</a>
-    </li>
-    <li>
-      Manage concurrent access to shared playlists.
-      <p class="implementation-details">Implementation using Locking Mechanisms</p>
-      <a href="https://github.com/Sharad20-02/Basic-Implementation/blob/main/SynchronisationMechanism.java" class="challenge-link">View Implementation</a>
-    </li>
-    <li>
-      Playback resumption from last position when users switch devices or re-open the app.
-      <p class="implementation-details">Implementation using Hashmaps</p>
-      <a href="https://github.com/Sharad20-02/Basic-Implementation/blob/main/PlaybackResumption.java" class="challenge-link">View Implementation</a>
-    </li>
-  </ul>
-</section>
-
-    </main>
-  </body>
+    <script src="https://kit.fontawesome.com/af060cbfbd.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
 </html>
