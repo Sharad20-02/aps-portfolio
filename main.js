@@ -30,7 +30,7 @@ document
     .addEventListener('click', function(event){
         event.preventDefault();
         window.location.href =
-          'https://github.com/Sharad20-02/Basic-Implementation/blob/main/MergeSort.java';
+          'https://github.com/Sharad20-02/Basic-Implementation/tree/main/Merge%20Sort';
 });
 
 document
@@ -38,7 +38,7 @@ document
   .addEventListener('click', function (event) {
     event.preventDefault();
     window.location.href =
-      'https://github.com/Sharad20-02/Basic-Implementation/blob/main/FisherYatesShuffleAlgorithm.java';
+      'https://github.com/Sharad20-02/Basic-Implementation/tree/main/Fisher%20Yates%20Shuffle';
   });
 
   document
@@ -46,7 +46,7 @@ document
     .addEventListener('click', function (event) {
       event.preventDefault();
       window.location.href =
-        'https://github.com/Sharad20-02/Basic-Implementation/blob/main/LevenshteinDistance.java';
+        'https://github.com/Sharad20-02/Basic-Implementation/tree/main/levenshtein%20distance';
     });
     
     document
@@ -54,7 +54,7 @@ document
       .addEventListener('click', function (event) {
         event.preventDefault();
         window.location.href =
-          'https://github.com/Sharad20-02/Basic-Implementation/blob/main/SoundexSearch.java';
+          'https://github.com/Sharad20-02/Basic-Implementation/tree/main/Soundex%20Search';
       });
 
       document
@@ -73,6 +73,38 @@ document
               'https://github.com/Sharad20-02/Basic-Implementation/blob/main/PlaylistManagement.java';
           });
 
+          document
+          .getElementById('function7')
+          .addEventListener('click', function (event) {
+            event.preventDefault();
+            window.location.href =
+              'https://github.com/Sharad20-02/Basic-Implementation/tree/main/Quick%20Sort';
+          });
+
+          document
+            .getElementById('function8')
+            .addEventListener('click', function (event) {
+              event.preventDefault();
+              window.location.href =
+                'https://github.com/Sharad20-02/Basic-Implementation/tree/main/Binary%20Search';
+            });
+
+            document
+              .getElementById('function9')
+              .addEventListener('click', function (event) {
+                event.preventDefault();
+                window.location.href =
+                  'https://github.com/Sharad20-02/Basic-Implementation/tree/main/Breadth%20First%20Search';
+              });
+
+              document
+                .getElementById('function10')
+                .addEventListener('click', function (event) {
+                  event.preventDefault();
+                  window.location.href =
+                    'https://github.com/Sharad20-02/Basic-Implementation/blob/main/MinHeap.java';
+                });
+
       document
         .getElementById('githubLink')
         .addEventListener('click', function (event) {
@@ -80,3 +112,6 @@ document
           window.location.href =
             'https://github.com/Sharad20-02';
         });
+
+
+        
